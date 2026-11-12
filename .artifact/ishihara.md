@@ -1,6 +1,7 @@
 ---
 title: Ishihara
 date: 2025-04
+status: released
 category: system
 tags: [design]
 url: https://github.com/arfct/ishihara
@@ -13,7 +14,7 @@ media:
   - src: pangram.png
     caption: The pangram "How vexingly quick daft zebras jump" in Latin letters, in Braille and in Ishihara
     alt: Three rows of black text on white, the first in a monospaced Latin face, the second in Braille dots, the third in glyphs of joined strokes and dots
-unconfirmed: [date]
+unconfirmed: [date, status]
 ---
 
 Ishihara is a typeface with the structure of Braille. Each glyph is the Braille cell for its letter with the dots joined into strokes, so the upper four dots are drawn as one connected shape and the lower dots are joined when a letter has more than one. Joined in this way, a, b, k and l each condense to a single column. Glyphs are anchored to the top of the line and have no baseline, since Braille is never written by hand and leaves no calligraphic strokes to inherit.
